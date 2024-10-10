@@ -1,8 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-// #include<ext/pb_ds/assoc_container.hpp>
-// #include<ext/pb_ds/tree_policy.hpp>
-// using namespace __gnu_pbds;
 #pragma GCC optimize("O1")
 #define fastio      ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(0);
 #define MOD         1000000007
