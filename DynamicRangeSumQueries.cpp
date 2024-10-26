@@ -12,11 +12,6 @@ using namespace std;
 #define ln        cout<<endl;
 #define print(v)  fr(i,v.size())cout<<v[i]<<" ";
 #define endl        '\n'
-#define u_b         upper_bound
-#define l_b         lower_bound
-#define b_s         binary_search
-#define ff          first
-#define ss          second
 #define vec(v,n)    vll v(n);fr(i,n)cin>>v[i];
 #define take(v,n)   fr(i,n)cin>>v[i];
 #define test(t)     int t; cin>>t; while(t--)
