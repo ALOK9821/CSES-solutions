@@ -23,9 +23,6 @@ using namespace std;
 #define take(v,n)   fr(i,n)cin>>v[i];
 #define test(t)     int t; cin>>t; while(t--)
 #define inmap(x,mymap) mymap.find(x)!=mymap.end()
-#define gtest(t)    int t; cin>>t; for(int dfhs=0;dfhs<t;dfhs++)
-#define gkick       cout << "Case #" << dfhs+1 << ": ";
-#define ld long double
 //----------------------------------------------------------------------------------------------------------------------------------------
 ll exp(ll x, ll y, ll p) {x %= p; ll res = 1; while (y) {if (y % 2) res = (res * x % p) % p; x = (x * x) % p; y /= 2; } return res;}
 ll expo(ll x, ll y) { ll res = 1; while (y) {if (y % 2) res = (res * x % MOD) % MOD; x = (x * x) % MOD; y /= 2; } return res;}
